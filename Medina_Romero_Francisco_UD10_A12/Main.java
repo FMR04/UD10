@@ -10,7 +10,7 @@ import java.util.*;
  */
 public class Main {
     public static void main(String[] args){
-        List<Integer> listaa = new ArrayList<>(List.of(100,50,500,50,200));
+        List<Integer> listaa = new ArrayList<>(as.List(100,50,500,50,200));
 
         int Cantidad = Collections.frequency(listaa, 50);
         System.out.println("Cantidad de 50: " + Cantidad );
